@@ -26,4 +26,5 @@ void main() {
   Jinchuuriki uchirraMadaraJinchuuriki = Jinchuuriki(uchirraMadara, biju: BijuEnum.juubi);
 
   print(uchirraMadaraJinchuuriki.toString());
+  print(uchirraMadaraJinchuuriki.getDescription());
 }
